@@ -1,0 +1,11 @@
+// Umieść swoje powiązania klawiszy w tym pliku, aby zastąpić ustawienia domyślneauto[]
+[
+    {
+        "key": "shift+alt+n",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    }
+]

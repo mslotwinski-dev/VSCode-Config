@@ -1,0 +1,64 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 400,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorCustomizations": {
+    "[Default Dark+]": {}
+
+
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "dart.flutterSdkPath": "D:\\Flutter",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.fontSize": 12.5,
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "go.toolsManagement.autoUpdate": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "grunt.autoDetect": "on",
+    "gulp.autoDetect": "on",
+    "jake.autoDetect": "on",
+    "debug.onTaskErrors": "debugAnyway",
+    "redhat.telemetry.enabled": true,
+    "tabnine.experimentalAutoImports": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+        "*.html": "html"
+    },
+    "editor.codeLens": false,
+    "window.zoomLevel": -1,
+
+    "C_Cpp.autocomplete": "Default",
+	"C_Cpp.intelliSenseEngine": "Default",
+	"C_Cpp.dimInactiveRegions": false,
+	"C_Cpp.preferredPathSeparator": "Forward Slash",
+	"C_Cpp.loggingLevel": "Warning",
+	"C_Cpp.workspaceParsingPriority": "highest",
+	"C_Cpp.enhancedColorization": "Enabled"
+}

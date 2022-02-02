@@ -6,33 +6,14 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.fontWeight": 400,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.colorCustomizations": {
-    "[Default Dark+]": {}
 
-
-    },
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
     "workbench.editor.untitled.hint": "hidden",
     "dart.flutterSdkPath": "D:\\Flutter",
-    "[dart]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.rulers": [
-            80
-        ],
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
-    },
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.fontSize": 12.5,
@@ -45,14 +26,13 @@
     "debug.onTaskErrors": "debugAnyway",
     "redhat.telemetry.enabled": true,
     "tabnine.experimentalAutoImports": true,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+
     "files.associations": {
         "*.html": "html"
     },
     "editor.codeLens": false,
-    "window.zoomLevel": -1,
+
+    // C++ configuration
 
     "C_Cpp.autocomplete": "Default",
 	"C_Cpp.intelliSenseEngine": "Default",
@@ -60,5 +40,77 @@
 	"C_Cpp.preferredPathSeparator": "Forward Slash",
 	"C_Cpp.loggingLevel": "Warning",
 	"C_Cpp.workspaceParsingPriority": "highest",
-	"C_Cpp.enhancedColorization": "Enabled"
+    "C_Cpp.enhancedColorization": "Enabled",
+    "C_Cpp.default.compilerPath": "D:\\MSYS2\\mingw64\\bin\\gcc.exe",
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "code-runner.saveFileBeforeRun": true,
+    "cmake.configureOnOpen": true,
+    "window.zoomLevel": -1,
+
+    // Langs configuration
+ 
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[rust]": {
+        "editor.formatOnSave": true,
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+
+    // Editor configuration
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 400,
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "titleBar.activeBackground": "#414849",
+            "statusBar.background": "#00647d"
+            }
+    },
+
+    // Syntax Highlighting
+
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "textMateRules": [
+                // RUST // ----------------------
+                {
+                    "scope": "meta.attribute.rust",
+                    "settings": {
+                        "foreground": "#DCDCAA",
+                    }
+                },
+                {
+                    "scope": "meta.import.rust",
+                    "settings": {
+                        "foreground": "#4EC9B0",
+                    }
+                },
+                {
+                    "scope": "storage.type.rust",
+                    "settings": {
+                        "foreground": "#C586C0",
+                    }
+                },
+                {
+                    "scope": "keyword.operator.borrow.and.rust",
+                    "settings": {
+                        "foreground": "#569CD6",
+                    }
+                },
+            ],
+        }
+    }
 }

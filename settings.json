@@ -85,6 +85,19 @@
     "editor.tokenColorCustomizations": {
         "[Default Dark+]": {
             "textMateRules": [
+                // PYTHON // --------------------
+                {
+                    "scope": "source.python",
+                    "settings": {
+                        "foreground": "#9CDCFE",
+                    }
+                },
+                {
+                    "scope": "meta.function-call.python",
+                    "settings": {
+                        "foreground": "#DCDCAA",
+                    }
+                },
                 // RUST // ----------------------
                 {
                     "scope": "meta.attribute.rust",
